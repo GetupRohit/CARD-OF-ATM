@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: aliceblue;
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 30%;
+    height: 40rem;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.first {
+    width: 83%;
+    color: aliceblue;
+    height: 12rem;
+    position: absolute;
+    /* border: 2px solid black; */
+    /* background-color: rgb(19, 22, 24); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(19, 17, 70) 0%, rgba(9, 9, 121, 1) 35%, rgb(105, 109, 110) 100%);
+    top: 5rem;
+    left: 11rem;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.second {
+    width: 83%;
+    position: absolute;
+    height: 12rem;
+    background-color: rgb(204, 206, 207);
+    top: 20rem;
+    left: 17rem;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.right {
+    width: 50%;
+    height: 40rem;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: 12rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 13rem;
+    left: 7rem;
+}
+
+.form>label {
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+#name {
+    width: 15rem;
+    height: 1.4rem;
+}
+
+#number {
+    width: 15rem;
+    height: 1.4rem;
+}
+
+.exp {
+    display: flex;
+    gap: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+input {
+    margin: 0.71rem 0rem;
+}
+
+#mm {
+    width: 1.5rem;
+    height: 1.4rem;
+}
+
+#yy {
+    width: 1.5rem;
+    height: 1.4rem;
+}
+
+#cvc {
+    width: 7.6rem;
+    height: 1.4rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.inpt {
+    display: flex;
+    gap: 2rem;
+    margin: 0rem 0rem;
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    margin: 0.3rem 0rem;
+    padding: 0.5rem 5.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.circle {
+    display: flex;
+    gap: 1rem;
+}
+
+#one {
+    width: 2rem;
+    height: 2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+#two {
+    width: 1em;
+    height: 1rem;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    margin: 1.5rem 0rem;
+}
+
+#three {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.7rem 0rem;
+}
+
+.nn {
+    display: flex;
+    gap: 7rem;
+}
+
+#for {
+    margin-left: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    margin-top: 2rem;
+}
+
+.cvn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cn {
+    width: 80%;
+    height: 1.2rem;
+    margin-top: 1.5rem;
+    background-color: rgb(219, 150, 150);
+    text-align: end;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
